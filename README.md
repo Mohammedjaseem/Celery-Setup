@@ -35,7 +35,7 @@
           def debug_task(self):
               print('f,Request:{self.request!r}')
 
-6. Create "Tesk.py" in your APP folder
+6. Create "Task.py" in your APP folder
 7. In task.py add the sheduled task's in this file ( Shared task example )
 
         @shared_task(bind=True)
